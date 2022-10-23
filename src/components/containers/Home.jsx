@@ -11,7 +11,7 @@ const Home = () => {
       <div className="main-container" id="main-container">
         <h1>
           frontend. <br />
-          contracts <br /> Research
+          <span className="mid"> Smart contracts. </span> <br /> Research.
         </h1>
         <ContactButton />
       </div>

@@ -1,8 +1,15 @@
 import React from "react";
-import Home from "../components/containers/Home";
-import "../styles/home.scss";
 
+import Home from "../components/containers/Home";
+
+import "../styles/home.scss";
 const Index = () => {
-  return <Home />;
+  return (
+    <>
+      <div>
+        <Home />
+      </div>
+    </>
+  );
 };
 export default Index;

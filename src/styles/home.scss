@@ -3,6 +3,8 @@
 @import "./_mixins.scss";
 
 $bg-color: #ddd;
+
+
 a {
   text-decoration: none;
             color: inherit;
@@ -30,11 +32,16 @@ body {
     font-size: clamp(76px, 12vw, 15vw);
     font-weight: bold;
     margin-bottom: 10vh;
-    max-width: 70vw;
+    max-width: 90vw;
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
     margin: auto 0;
-    line-height: 1.1em;
+  
+
+    .mid {
+     margin-left: auto;
+      
+    }
   }
 
   @include mq ('tablet', min) 
